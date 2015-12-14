@@ -1,0 +1,189 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  color: rgba(255, 255, 255, .6);
+}
+
+p{
+  white-space: pre-line;
+}
+
+ul{
+  list-style: none;
+}
+
+p a{
+  text-decoration: underline;
+}
+
+a, .poems h3{
+  color: #b2b2b2;
+}
+
+/*a:hover, a:focus{
+  text-decoration: none;
+}*/
+
+.bg-red-gradient {
+  background: rgba(246,46,36,1);
+  background: -webkit-linear-gradient(top, rgba(246,46,36,1) 0%, rgba(255,54,121,1) 100%);
+  background: linear-gradient(to bottom, rgba(246,46,36,1) 0%, rgba(255,54,121,1) 100%);
+}
+
+.bg-maroon-gradient {
+  background: rgba(204,31,115,1);
+  background: -webkit-linear-gradient(top, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
+  background: linear-gradient(to bottom, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
+}
+
+.bg-navy-gradient {
+  background: rgba(0,32,63,1);
+  background: -webkit-linear-gradient(top, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
+}
+
+.bg-black{
+  background-color: #222;
+}
+
+.h-100{
+  height: 100vh;
+}
+
+.w-100{
+  width: 100vw;
+}
+
+.nav{
+  font-size: 1.6vw;
+  background-color: rgba(255, 255, 255, .3);
+
+}
+
+.nav li, .nav li a, .icons .icon:hover, .icons .icon:focus{
+  color: #ffffff;
+}
+
+.nav li a:hover, .nav li a:focus {
+  font-size: 3rem;
+}
+
+/*.nav li a:visited{
+  color: #dddddd;
+}*/
+
+
+.intro{
+  padding-top: 4%;
+  font-size: 2vw;
+}
+
+.about{
+  font-size: 3.8vh;
+  padding-top: 7%;
+}
+
+.mono{
+  font-family: monospace;
+}
+
+.coding{
+  font-size: 1.3vw;
+
+}
+
+.coding h3 a:hover, .coding h3 a:focus{
+  font-size: 4rem;
+}
+
+.tech{
+  text-decoration: underline;
+}
+
+.writing{
+  height: 120vh;
+}
+
+.writing .intro{
+  font-size: 1.7vw;
+}
+
+.writing .poems{
+  font-size: 1.3vw;
+  padding-left: 5%;
+}
+
+.icon{
+  font-size: 6vw;
+  color: rgba(255, 255, 255, .6);
+  padding-right: 1%;
+}
+
+footer{
+  border-top: 1px solid #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, .3)
+}
+
+/* Mobile */
+@media (max-width: 750px) {
+
+  .mobile-nav-trigger{
+    padding: 1% 0 0 10%;
+  }
+
+  .mobile-initials{
+    padding: 1% 15% 0 0;
+  }
+
+  .mobile-nav{
+    padding-top: 5%;
+    background-color: rgba(255, 255, 255, .6);
+  }
+
+  .mobile-nav li a{
+    color: #444444;
+    font-size: 3vw;
+  }
+
+  .mobile-nav li a:hover, .mobile-nav li a:focus {
+    color: #b2b2b2;
+  }
+
+  .about, .coding, .writing, .contact{
+    padding: 0 10% 0 5%;
+  }
+
+  .mobile-coding ul li p{
+    font-size: 2.5vw;
+  }
+
+  .mobile-coding h3 a:hover, .mobile-coding h3 a:focus{
+    color: rgba(255, 255, 255, .6);
+    font-size: 5vw;
+  }
+  .about{
+    font-size: 2.5vh;
+  }
+
+  .intro, .writing .intro{
+    font-size: 3.2vw;
+  }
+
+ h3{
+    font-size: 3.5vw;
+  }
+
+  .poems p{
+    font-size: 2.5vw;
+  }
+
+  footer{
+    border-top: 1px solid #fff;
+    position: absolute;
+    bottom: -320vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, .3)
+  }
+}

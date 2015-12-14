@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Damilola Odelola">
+    <meta name="description" content="Poet and web developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Damilola Odelola | Developer | Poet | Founder"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Website for Damilola Odelola and all the awesome stuff she does"/>
+    <!-- <meta property="og:image" content="fb-img.jpg"/> -->
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:title" content="Damilola Odelola | Developer | Poet | Founder">
+    <meta name="twitter:description" content="Website for Damilola Odelola and all the awesome stuff she does">
+    <meta property="twitter:image" content="../images/fb-img.jpg"/>
+
+    <title>Damilola Odelola</title>
+    <link href='https://fonts.googleapis.com/css?family=Alice|Quicksand:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <%= stylesheet_link_tag "normalize", "bootstrap", "index"%>
+    <%= javascript_include_tag  "all" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+  </body>
+</html>
